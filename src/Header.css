@@ -1,0 +1,119 @@
+.header {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    background: rgb(255, 255, 255);
+    z-index: 100;
+    top: 0;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75) ;
+}
+
+.header__left{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header__input{
+    display: flex;
+    align-items: center;
+    background-color: rgb(235, 235, 235);
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 999px;
+}
+.header__input > input {
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+.header__left > img {
+    height: 40px;
+}
+.header__center{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.header__option{
+    display: flex;
+    padding: 0px 30px;
+    align-items: center;
+    cursor: pointer;
+}
+.header__option:hover{
+    background-color: rgb(230, 230, 230);
+    align-items: center;
+    border-radius: 10px;
+    padding: 0px 30px;
+    border-bottom: none;
+}
+.header__option > .MuiSvgIcon-root {
+    color: gray;
+}
+.header__option:hover > .MuiSvgIcon-root {
+    color: rgb(45, 146, 255);
+}
+.header__option--active > .MuiSvgIcon-root {
+    color: rgb(45, 146, 255);
+}
+.header__option--active {
+    border-bottom: 4px solid rgb(45, 146, 255);
+}
+
+.header__right{
+    display: flex;
+    justify-content: center;
+}
+.header__info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__info > h4{
+    margin-left: 10px;
+}
+.header__more{
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    top: 50px;
+    right: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 7px -5px black;
+}
+.header__more > .logout{
+    padding: 10px;
+}
+.header__more > .logout:hover{
+    background-color: lightgray;
+    border-radius: 5px;
+}
+.header__noti{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    padding: 15px;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -5px black;
+}
+.header__noti > h5 {
+    padding: 5px 0;
+    border-bottom: 1px solid lightblue;
+}
+.header__noti > p{
+    padding: 5px 0;
+}
+.header__noti > p{
+    font-size: 15px;
+}
+.header__chat{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    height: 400px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+}

@@ -1,0 +1,11 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+}
+
+.app{
+  background-color: rgb(237, 237, 237);
+}
+.app__body{
+  display: flex;
+}

@@ -1,0 +1,160 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    background-color: rgb(237, 237, 237);
+}
+.login__top{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login__left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.login__left > img{
+    height: 100px;
+}
+.login__left > p {
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    width: 500px;
+    color: #1c1e21;
+}
+
+.login__right{
+    flex: 1;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login__formContainer{
+    box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.75);
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.login__formContainer > input, .login__button{
+    border: none;
+    outline: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 5px;
+    background-color: transparent;
+}
+.login__formContainer > .login__button{
+    background-color: rgb(53, 121, 255);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.login__formContainer > .createAccount{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(37, 169, 37);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+.login__formContainer > .createAccount:hover{
+    background-color: rgb(13, 148, 103);
+}
+.login__formContainer > p{
+    background-color: transparent;
+    text-align: center;
+    padding: 10px;
+    color: rgb(65, 126, 248);
+}
+.login__formContainer > hr{
+    color: rgb(220, 220, 220);
+    margin: 10px 5px;
+}
+.login__formContainer > button:hover{
+    background-color: rgb(10, 107, 251);
+}
+.login__formContainer > input:focus {
+    outline: 1px solid rgb(105, 170, 255);
+}
+
+/* Sign Up portion */
+.login__formContainer > .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 5px;
+    gap: 5px;
+}
+.login__formContainer > label{
+    background-color: transparent;
+    padding: 5px 5px;
+}
+.login__formContainer > .name > input{
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    outline: 1px solid lightgray;
+    border-radius: 5px;
+}
+.login__formContainer > select {
+    background-color: transparent;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    outline: 1px solid lightgray;
+    border-radius: 5px;
+}
+.login__formContainer > select > option{
+    padding: 10px;
+    font-size: 15px;
+    margin: 10px 2px;
+}
+.login__formContainer > .close__icon {
+    background-color: transparent;
+    display: flex;
+    justify-content: end;
+}
+.login__formContainer > .close__icon > .MuiSvgIcon-root{
+    color: #1c1e21;
+    border-radius: 999px;
+    padding: 5px;
+    background-color: transparent;
+}
+.login__formContainer > .close__icon > .MuiSvgIcon-root:hover{
+    background-color: red;
+    color: white;
+}
+
+.login__formContainer > .sign__up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.login__formContainer > .sign__up > button {
+    cursor: pointer;
+    background-color: rgb(56, 173, 56);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px 0;
+}
+.login__formContainer > .sign__up > button:hover {
+    background-color: rgb(46, 134, 60);
+}

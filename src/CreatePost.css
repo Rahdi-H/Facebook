@@ -1,0 +1,57 @@
+.createPost{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    width: 100%;
+}
+.createPost__top{
+    display: flex;
+    border-bottom: 1px solid rgb(227, 227, 227);
+    padding: 15px;
+}
+.createPost__top > form{
+    flex: 1;
+    display: flex;
+}
+.createPost__top > form > input, button{
+    outline-width: 0;
+    border: none;
+    padding: 5px 20px;
+    margin: 0px 10px;
+    border-radius: 999px;
+    background-color: rgb(243, 243, 243);
+}
+.createPost__textInput {
+    flex: 1;
+}
+.createPost__bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.createPost__option{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 5px;
+    color: gray;
+}
+.createPost__option:hover{
+    cursor: pointer;
+    background-color: rgb(238, 235, 235);
+    border-radius: 20px;
+}
+.createPost__option > h4{
+    font-size: medium;
+    margin-left: 10px;
+}
+.createPost__submit{
+    font-weight: 600;
+    cursor: pointer;
+}
+.createPost__submit:hover{
+    background-color: rgb(66, 116, 253);
+    color: white;
+}
